@@ -51,7 +51,7 @@ var initializeBackbone = function(data){
 
 var startAjaxCall = function(){
   $.ajax({
-    url: 'http://tutorials.sitesbyrobert.com/testdata/grocerylistresponse.js',
+    url: 'http://tutorials.sitesbyrobert.com/Javascript/BackboneTutorial/Scripts/grocerylistresponse.js',
     type: 'GET',
     crossDomain: true,
     dataType: 'json',
