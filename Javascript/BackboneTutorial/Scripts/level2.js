@@ -2,7 +2,7 @@
 var GroceryItem = Backbone.Model.extend({
   defaults: {
     itemName: "",
-    selected: false
+    inCart: false
   }
 });
 
